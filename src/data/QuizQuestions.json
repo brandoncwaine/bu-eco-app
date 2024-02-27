@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "What is the definition of sustainability?",
+      "options": [
+        "Using resources in a way that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+        "Reducing waste and recycling materials.",
+        "Using renewable energy sources.",
+        "Conserving water and reducing water pollution."
+      ],
+      "answer": "Using resources in a way that meets the needs of the present without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "question": "Which of the following is an example of sustainable transportation?",
+      "options": [
+        "Driving a gas-guzzling SUV.",
+        "Taking public transportation.",
+        "Flying in a private jet.",
+        "Riding a bicycle."
+      ],
+      "answer": "Taking public transportation."
+    },
+    {
+      "question": "What is the main goal of sustainable agriculture?",
+      "options": [
+        "Maximizing crop yields.",
+        "Using organic fertilizers.",
+        "Minimizing pesticide use.",
+        "Preserving biodiversity."
+      ],
+      "answer": "Preserving biodiversity."
+    },
+    {
+      "question": "Which of the following is a renewable energy source?",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Solar power",
+        "Nuclear power"
+      ],
+      "answer": "Solar power"
+    },
+    {
+      "question": "What is the concept of the circular economy?",
+      "options": [
+        "Using resources in a linear manner, from extraction to disposal.",
+        "Minimizing waste and maximizing resource efficiency.",
+        "Promoting economic growth at the expense of environmental sustainability.",
+        "Using non-renewable resources indefinitely."
+      ],
+      "answer": "Minimizing waste and maximizing resource efficiency."
+    },
+    {
+      "question": "What is the definition of sustainability?",
+      "options": [
+        "Using resources efficiently",
+        "Protecting the environment",
+        "Meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+        "Reducing waste"
+      ],
+      "answer": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs"
+    },
+    {
+      "question": "Which of the following is a renewable energy source?",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Solar power",
+        "Nuclear power"
+      ],
+      "answer": "Solar power"
+    },
+    {
+      "question": "What is the main cause of climate change?",
+      "options": [
+        "Deforestation",
+        "Burning fossil fuels",
+        "Industrial pollution",
+        "Overpopulation"
+      ],
+      "answer": "Burning fossil fuels"
+    },
+    {
+      "question": "What is the purpose of recycling?",
+      "options": [
+        "To reduce waste",
+        "To conserve energy",
+        "To protect natural resources",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the concept of 'reduce, reuse, recycle'?",
+      "options": [
+        "A waste management strategy",
+        "A sustainable lifestyle approach",
+        "A marketing slogan",
+        "A government policy"
+      ],
+      "answer": "A waste management strategy"
+    },
+    {
+      "question": "What is the term for the loss of biodiversity due to human activities?",
+      "options": [
+        "Pollution",
+        "Deforestation",
+        "Habitat destruction",
+        "Species extinction"
+      ],
+      "answer": "Species extinction"
+    },
+    {
+      "question": "What is the primary cause of water pollution?",
+      "options": [
+        "Industrial waste",
+        "Agricultural runoff",
+        "Sewage discharge",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of sustainable agriculture?",
+      "options": [
+        "To increase crop yields",
+        "To protect soil health",
+        "To reduce pesticide use",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the term for the practice of planting trees to restore or create forests?",
+      "options": [
+        "Afforestation",
+        "Deforestation",
+        "Reforestation",
+        "Desertification"
+      ],
+      "answer": "Reforestation"
+    },
+    {
+      "question": "What is the main goal of sustainable development?",
+      "options": [
+        "Economic growth",
+        "Environmental protection",
+        "Social equity",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}
