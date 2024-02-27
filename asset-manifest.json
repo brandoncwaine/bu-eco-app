@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bu-eco-app/static/css/main.36532417.css",
+    "main.js": "/bu-eco-app/static/js/main.2f9c14fe.js",
+    "static/js/208.0b0a7ce6.chunk.js": "/bu-eco-app/static/js/208.0b0a7ce6.chunk.js",
+    "static/js/293.96d04e6a.chunk.js": "/bu-eco-app/static/js/293.96d04e6a.chunk.js",
+    "static/js/917.a3a07ab6.chunk.js": "/bu-eco-app/static/js/917.a3a07ab6.chunk.js",
+    "static/js/516.25888c42.chunk.js": "/bu-eco-app/static/js/516.25888c42.chunk.js",
+    "static/js/946.ceb14987.chunk.js": "/bu-eco-app/static/js/946.ceb14987.chunk.js",
+    "static/js/160.d1f7d665.chunk.js": "/bu-eco-app/static/js/160.d1f7d665.chunk.js",
+    "index.html": "/bu-eco-app/index.html",
+    "main.36532417.css.map": "/bu-eco-app/static/css/main.36532417.css.map",
+    "main.2f9c14fe.js.map": "/bu-eco-app/static/js/main.2f9c14fe.js.map",
+    "208.0b0a7ce6.chunk.js.map": "/bu-eco-app/static/js/208.0b0a7ce6.chunk.js.map",
+    "293.96d04e6a.chunk.js.map": "/bu-eco-app/static/js/293.96d04e6a.chunk.js.map",
+    "917.a3a07ab6.chunk.js.map": "/bu-eco-app/static/js/917.a3a07ab6.chunk.js.map",
+    "516.25888c42.chunk.js.map": "/bu-eco-app/static/js/516.25888c42.chunk.js.map",
+    "946.ceb14987.chunk.js.map": "/bu-eco-app/static/js/946.ceb14987.chunk.js.map",
+    "160.d1f7d665.chunk.js.map": "/bu-eco-app/static/js/160.d1f7d665.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36532417.css",
+    "static/js/main.2f9c14fe.js"
+  ]
+}
