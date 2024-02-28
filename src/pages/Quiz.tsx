@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { MdChevronRight, MdClose } from 'react-icons/md';
+import { MdChevronRight, MdClose, MdGamepad } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 import QuizQuestions from '../data/QuizQuestions.json';
 
 const QUESTION_POOL_SIZE = 5;
+const SCORE_MULTIPLIER = 10000;
 
 type TQuestion = {
 	question: string;
@@ -57,19 +58,40 @@ function Quiz() {
 
 	if (questionIndex === QUESTION_POOL_SIZE) {
 		return (
-			<div className="bg-zinc-100 h-screen w-screen items-center justify-center">
+			<div className="h-screen w-screen flex items-center justify-center">
 				<div className="w-full flex flex-col justify-center items-center">
 					<div className="flex flex-col justify-between w-1/2 bg-zinc-300 border-violet-600 p-8 rounded-md border-b-4 gap-4">
 						<h1 className="text-2xl font-bold text-zinc-900">Quiz</h1>
 						<h2 className="text-lg text-zinc-800">
 							Your score is {score}/{QUESTION_POOL_SIZE}
 						</h2>
-						<Link to={'/'}>
-							<button className="flex flex-row m-6 gap-4 bg-red-500 text-white font-bold p-6 rounded-md mt-5 border-b-2 border-red-600 hover:bg-red-700 transition-all">
-								<MdClose className="text-2xl" />
-								Close Quiz
-							</button>
-						</Link>
+						<h2 className="text-lg text-zinc-800">
+							Either return to Tablot Campus, or play the Talbot Campus Eco Tycoon
+							Minigame using your score{' '}
+							<span className="font-bold">
+								{score} =
+								{(score * SCORE_MULTIPLIER).toLocaleString('en-US', {
+									style: 'currency',
+									currency: 'gbp',
+									maximumFractionDigits: 0,
+								})}{' '}
+								Budget
+							</span>
+						</h2>
+						<div className="flex flex-row justify-between w-full">
+							<Link to={'/'}>
+								<button className="flex flex-row m-6 gap-4 bg-red-500 text-white font-bold p-6 rounded-md mt-5 border-b-2 border-red-600 hover:bg-red-700 transition-all">
+									<MdClose className="text-2xl" />
+									Close Quiz
+								</button>
+							</Link>
+							<Link to={'/minigame'}>
+								<button className="flex flex-row m-6 gap-4 bg-violet-500 text-white font-bold p-6 rounded-md mt-5 border-b-2 border-violet-600 hover:bg-violet-700 transition-all">
+									<MdGamepad className="text-2xl" />
+									Play Minigame
+								</button>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -91,6 +113,7 @@ function Quiz() {
 						<h2 className="text-lg text-zinc-800">{question.question}</h2>
 						{question.options.map((option: string) => (
 							<button
+								key={option}
 								onClick={() => setSelectedAnswer(option)}
 								style={{
 									backgroundColor:
